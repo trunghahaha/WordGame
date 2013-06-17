@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Name</key>
+		<string>Diamond</string>
+		<key>Description</key>
+		<string>Collection</string>
+		<key>ID</key>
+		<integer>1</integer>
+		<key>Cost</key>
+		<integer>200</integer>
+		<key>Discount</key>
+		<integer>0</integer>
+		<key>Type</key>
+		<string>Badge</string>
+		<key>Diamond</key>
+		<integer>0</integer>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Water badge</string>
+		<key>Description</key>
+		<string>Water badge for player&apos;s collection</string>
+		<key>ID</key>
+		<integer>2</integer>
+		<key>Cost</key>
+		<integer>250</integer>
+		<key>Discount</key>
+		<integer>0</integer>
+		<key>Type</key>
+		<string>Badge</string>
+		<key>Diamond</key>
+		<integer>0</integer>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Flower diamond</string>
+		<key>Description</key>
+		<string>Flower diamond for player&apos;s collection</string>
+		<key>ID</key>
+		<integer>3</integer>
+		<key>Cost</key>
+		<integer>500</integer>
+		<key>Discount</key>
+		<integer>0</integer>
+		<key>Type</key>
+		<string>Badge</string>
+		<key>Diamond</key>
+		<integer>0</integer>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>High level badge</string>
+		<key>Description</key>
+		<string>Collection</string>
+		<key>ID</key>
+		<integer>3</integer>
+		<key>Cost</key>
+		<integer>0</integer>
+		<key>Discount</key>
+		<integer>0</integer>
+		<key>Type</key>
+		<string>Badge</string>
+		<key>Diamond</key>
+		<integer>1</integer>
+	</dict>
+</array>
+</plist>

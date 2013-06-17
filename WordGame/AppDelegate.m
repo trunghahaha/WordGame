@@ -7,7 +7,7 @@
 //
 
 #import "AppDelegate.h"
-
+#import "RootView.h"
 @implementation AppDelegate
 
 @synthesize managedObjectContext = _managedObjectContext;
@@ -19,6 +19,10 @@
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor whiteColor];
+    RootView *rootView = [[RootView alloc] initWithNibName:nil bundle:NULL];
+    UINavigationController *naviView = [[UINavigationController alloc] initWithRootViewController:rootView];
+    [naviView setNavigationBarHidden:YES];
+    self.window.rootViewController = naviView;
     [self.window makeKeyAndVisible];
     return YES;
 }
